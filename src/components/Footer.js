@@ -8,9 +8,9 @@ function Footer() {
                 <img src="logo/main_logo.png" alt="Logo" />
             </div>
             <div className="social_media">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                     <img src="icons/facebook.png" alt="Facebook" />
-                </a>
+                </a> */}
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                     <img src="icons/x.png" alt="Twitter" />
                 </a>
