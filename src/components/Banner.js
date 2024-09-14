@@ -8,8 +8,8 @@ function Banner() {
         { src: "sliding/bmcs2.JPG", caption: "Welcome to Bhaskar Medical College & General Hospital" },
         { src: "sliding/bmcs3.JPG", caption: "Welcome to Bhaskar Medical College & General Hospital" },
         { src: "sliding/bmcs4.JPG", caption: "Welcome to Bhaskar Medical College & General Hospital" },
-        { src: "sliding/bmcs5.JPG", caption: "Welcome to Bhaskar Medical College & General Hospital" },
-        { src: "sliding/bmcs6.JPG", caption: "Welcome to Bhaskar Medical College & General Hospital" }
+        { src: "sliding/bmcs5.jpg", caption: "Welcome to Bhaskar Medical College & General Hospital" },
+        { src: "sliding/bmcs6.jpg", caption: "Welcome to Bhaskar Medical College & General Hospital" }
         // { src: "sliding/bmcs8.JPG", caption: "Welcome to Bhaskar Medical College & General Hospital" }
 
     ];
