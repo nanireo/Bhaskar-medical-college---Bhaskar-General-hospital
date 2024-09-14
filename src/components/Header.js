@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
             <div className="logo">
-                <img src="logo/logo-2.png" alt="Logo" />
+                <img src="logo/main_logo.png" alt="Logo" />
             </div>
 
          <header className="header">
