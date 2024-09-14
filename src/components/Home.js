@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
+import MapLink from "./MapLink";
 
 function Home() {
     return (
@@ -65,6 +66,9 @@ function Home() {
              </div>
         </div>
 
+            <div>
+                <MapLink />
+            </div>
 
         </main>
     );
