@@ -3,9 +3,22 @@ import React from 'react';
 function Header() {
     return (
         <>
-            <div className="logo">
-                <img src="logo/main_logo.png" alt="Logo" />
+            <div className="logo-container">
+                <div className="left-section">
+                    <div className="logo">
+                        <img src="logo/main_logo.png" alt="Logo" />
+                    </div>
+                    <div className="college-info">
+                        <h1>Bhaskar Medical College <br />& Bhaskar General Hospital</h1>
+                    </div>
+                </div>
+
+                <div className="extra-info">
+                    <h4>Anti Ragging</h4>
+                    <p>Information as required by MARB of NMC</p>
+                </div>
             </div>
+
 
          <header className="header">
 

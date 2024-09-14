@@ -33,12 +33,52 @@ body {
     margin: 0;
 } */
 
-.logo{
-    text-align: center;
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     max-width: 1400px;
     height: 140px;
+    padding: 0 20px; /* Optional: adds some padding on the sides */
 }
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-height: 100px; /* Adjust the size of the logo as needed */
+    margin-right: 20px; /* Adds spacing between the logo and text */
+}
+
+.college-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #003366;
+}
+
+.college-info h1 {
+    margin: 0;
+    font-size: 45px; /* Adjust the font size as needed */
+}
+
+.extra-info {
+    text-align: right;
+    padding: 70px;
+    font-size: 14px; /* Adjust the size of additional info text */
+}
+
+.extra-info p {
+    margin: 5px 0; /* Optional: adds some spacing between the paragraphs */
+}
+
+
+
+
+
 
 nav ul {
     list-style: none;
