@@ -201,18 +201,17 @@
 }
 
 
-
 .NotableAlumni {
-  flex: 1; /* This makes sure both sections take equal space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  
+  margin: 0 auto;
+  height: 100vh; /* Full viewport height */
 }
 
-.NotableAlumni {
-  display: inline-block;
-}
-
-.NotableAlumni h4{
+.NotableAlumni h4 {
   font-size: 24px;
   margin-bottom: 20px;
 }
@@ -223,6 +222,7 @@
   border-radius: 8px; 
   padding: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  text-align: center;
 }
 
 .alumni-frame img {
@@ -233,7 +233,7 @@
   margin: 0 auto;
 }
 
-.alumni-name{
+.alumni-name {
   margin-top: 10px;
   font-size: 16px;
   color: #333;
