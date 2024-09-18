@@ -40,7 +40,6 @@ body {
     width: 100%;
     max-width: 1400px;
     height: 140px;
-    padding: 0 20px; /* Optional: adds some padding on the sides */
 }
 
 .left-section {
