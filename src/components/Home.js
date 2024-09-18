@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons
 import MapLink from './MapLink';
+import HomeDoctorProfile from './HomeDoctorProfile';
+
 
 function Home() {
     // State to manage "Read More" toggle for Chairman's Message
@@ -108,6 +110,14 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            {/* Head of Institution */}
+
+            <div>
+
+                <HomeDoctorProfile/>
+            </div>
+
 
             {/* Notable Alumni Section */}
             <div className="NotableAlumni">

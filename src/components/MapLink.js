@@ -3,7 +3,7 @@ import React from 'react';
 const MapLink = () => {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
-      <h2>Bhaskar Medical College Location</h2>
+      {/* <h2>Bhaskar Medical College Location</h2> */}
       
       <a
         href="https://www.google.com/maps/dir//Bhaskar+Medical+College+Survey+No.+156+To+162,+Amdapur+X+Road,+Yenkapally,+Moinabad,+Ranga+Reddy+Hyderabad,+Telangana+500075/@17.3319252,78.2990225,1364m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x3bcb95517668fe55:0x8d0462ff27d44cd9!2m2!1d78.2990225!2d17.3319252?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D"

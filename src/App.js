@@ -3,6 +3,8 @@ import './css/Header.css';
 import './css/Banner.css';
 import './css/Footer.css';
 import './css/Home.css';
+import './css/HomeDoctorProfile.css';
+
 
 
 import Header from './components/Header';

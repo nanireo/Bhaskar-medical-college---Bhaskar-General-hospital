@@ -201,38 +201,44 @@
 }
 
 
+
 .NotableAlumni {
+  flex: 1; /* This makes sure both sections take equal space */
   text-align: center;
-  margin: 20px;
+  
 }
 
-.NotableAlumni h4 {
+.NotableAlumni {
+  display: inline-block;
+}
+
+.NotableAlumni h4{
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-.highlight {
-  color: #ff4500; /* Change this to your desired color */
-}
-
 .alumni-frame {
   display: inline-block;
-  border: 2px solid #ddd; /* Border color for the photo frame */
-  border-radius: 8px; /* Rounded corners for the frame */
+  border: 2px solid #ddd; 
+  border-radius: 8px; 
   padding: 10px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: Adds shadow for better visual */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
 }
 
 .alumni-frame img {
   display: block;
-  width: 150px; /* Decreased width */
-  height: auto; /* Maintains aspect ratio */
-  border-radius: 8px; /* Rounded corners for the image */
-  margin: 0 auto; /* Centers the image */
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto;
 }
 
-.alumni-name {
+.alumni-name{
   margin-top: 10px;
   font-size: 16px;
-  color: #333; /* Change this to your desired text color */
+  color: #333;
+}
+
+.highlight {
+  color: #ff4500; 
 }
