@@ -15,6 +15,7 @@ function Footer() {
                     <img src="icons/x.png" alt="Twitter" />
                 </a>
                 <a href="#" target="_blank" rel="noopener noreferrer">
+                    <img src="icons/x.png" alt="Instagram" />
                     <img src="icons/Emailicon.png" alt="Instagram" />
                 </a>
             </div>
